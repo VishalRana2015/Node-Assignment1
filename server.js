@@ -42,8 +42,5 @@ Some file related code
 
 const http = require('http')
 const requestListener = require('./module')
-
 const server = http.createServer(requestListener);
-
-
 server.listen(3000)
